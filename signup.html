@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Tisaay is an online shopping website developed as a coursework for web product development and management in the University of Portsmouth">
+    <meta name="keywords" content="Shopping, Deals, Fashion, Sale, Clothes, Shoes">
+    <meta name="author" content=" Teodora Ivelinova Georgieva, Yusuf Hussaini Abdullahi, Sobulachi Chinda, Amos Adeola, Ashish Kumar, Ikponmwoa Edo-Ohonba">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Login | Sign Up Form | Tisaay</title>
+</head>
+<body>
+
+ <!-- Header -->
+ <header class="header">
+  <div class="container">
+    <div class="header-row in-center">
+      <div class="header-sub left">
+        <div class="logo">
+          <a href="index.html">Tisaay</a>
+        </div>
+      </div>
+      <!-- Navigation top level information -->
+      <div class="header-sub center">
+        <div class="nav-overlay">
+
+        </div>
+        <nav class="nav">
+          <div class="mobile-nav-elements">
+            <div class="back">
+              <svg class="icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-triangle-left"></use>
+              </svg>
+            </div>
+            <div class="current-tab">
+              <div class="logo">
+                <a href="index.html">Tisaay</a>
+              </div>
+            </div>
+            <div class="close">
+              <!-- &times; -->
+              <svg class="icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-cross"></use>
+              </svg>
+            </div>
+          </div>
+          <ul class="nav-main">
+            <li><a href="index.html">Home</a></li>
+
+            <li class="nav-children"><a href="#" title="New In Section">New In <i class="icon ion-arrow-down-b"></i></a>
+              <div class="sub-nav mega-menu mega-menu-col-4">
+                <div class="list-item">
+                  <a href="products.html">
+                    <h1 class="category" >All Menswear</h1>
+                    <img src="./assets/img/navImg/manscoats.jpeg" alt="New Arrivals Man ">
+                  </a>
+                  <ul class="mg-2">
+                    <li><a href="products.html">Casual Wear</a></li>
+                    <li><a href="products.html">Elegant Wear</a></li>
+                    <li><a href="products.html">Sport Wear</a></li>
+                  </ul>
+                </div>
+                <div class="list-item">
+                  <h1 class="category">Men's Shoes</h1>
+                  <ul>
+                    <li><a href="products.html">Summer Shoes</a></li>
+                    <li><a href="products.html">Winter Shoes</a></li>
+                    <li><a href="products.html">Autumn Shoes</a></li>
+                    <li><a href="products.html">Sport Shoes</a></li>
+                </ul>
+                <h1 class="category">Men's Accessories</h1>
+                <ul>
+                  <li><a href="products.html">Bags & Wallets</a></li>
+                  <li><a href="products.html">Hats, Scarfs & Gloves</a></li>
+                  <li><a href="products.html">Jewellery</a></li>
+              </ul>
+                </div>
+               
+                <div class="list-item">
+                      <a href="">
+                        <h1 class="category">All Womenswear</h1>
+                      <img src="./assets/img/navImg/wCoats.jpg" alt="New Arrivals Women ">
+                      </a>
+                      <ul class="mg-2">
+                        <li><a href="products.html">Casual Clothes</a></li>
+                        <li><a href="products.html">Elegant Clothes</a></li>
+                        <li><a href="products.html">Sport Clothes</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="list-item">
+                      <h1 class="category">Women's Shoes</h1>
+                      <ul>
+                        <li><a href="products.html">Summer Shoes</a></li>
+                        <li><a href="products.html">Winter Shoes</a></li>
+                        <li><a href="products.html">Autumn Shoes</a></li>
+                        <li><a href="products.html">Sport Shoes</a></li>
+                    </ul>
+
+                    <h1 class="category">Women's Accessories</h1>
+                    <ul>
+                      <li><a href="products.html">Bags & Wallets</a></li>
+                      <li><a href="products.html">Hats, Scarfs & Gloves</a></li>
+                      <li><a href="products.html">Jewellery</a></li>
+                    </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-children"><a href="#" title="Sales Section">Sales <i class="icon ion-arrow-down-b"></i></a>
+                <div class="sub-nav mega-menu mega-menu-col-4">
+                  <div class="list-item">
+                      <h1 class="category">Menswear</h1>
+                      <ul>
+                          <li><a href="products.html">Casual Clothes</a></li>
+                          <li><a href="products.html">Elegant Clothes</a></li>
+                          <li><a href="products.html">Sport Clothes</a></li>
+                        </ul>
+                        <ul class="mg-1">
+                          <li><a href="products.html">Suits</a></li>
+                          <li><a href="products.html">Jeans & Trousers</a></li>
+                          <li><a href="products.html">T-shirts & Tops</a></li>
+                          <li><a href="products.html">Hoodies & Sweatshirts</a></li>
+                          <li><a href="products.html">Jackets</a></li>
+                      </ul>
+                      <h1 class="category">Men's Shoes</h1>
+                      <ul>
+                          <li><a href="products.html">Summer Shoes</a></li>
+                          <li><a href="products.html">Winter Shoes</a></li>
+                          <li><a href="products.html">Autumn Shoes</a></li>
+                          <li><a href="products.html">Sport Shoes</a></li>
+                      </ul>
+                      <h1 class="category">Men's Accessories</h1>
+                      <ul>
+                          <li><a href="products.html">Bags & Wallets</a></li>
+                          <li><a href="products.html">Hats, Scarfs & Gloves</a></li>
+                          <li><a href="products.html">Jewellery</a></li>
+                      </ul>
+                  </div>
+                  <div class="list-item">
+                      <h1 class="category">Womenswear</h1>
+                      <ul>
+                          <li><a href="products.html">Casual Clothes</a></li>
+                          <li><a href="products.html">Elegant Clothes</a></li>
+                          <li><a href="products.html">Sport Clothes</a></li>
+                      </ul>
+                      <ul class="mg-1">
+                        <li><a href="products.html">Dresses</a></li>
+                        <li><a href="products.html">Skirts</a></li>
+                        <li><a href="products.html">Suits</a></li>
+                        <li><a href="products.html">Jeans & Trousers</a></li>
+                        <li><a href="products.html">T-shirts & Tops</a></li>
+                        <li><a href="products.html">Jackets</a></li>
+                    </ul>
+                    <h1 class="category">Women's Shoes</h1>
+                      <ul>
+                          <li><a href="products.html">Summer Shoes</a></li>
+                          <li><a href="products.html">Winter Shoes</a></li>
+                          <li><a href="products.html">Autumn Shoes</a></li>
+                          <li><a href="products.html">Sport Shoes</a></li>
+                      </ul>
+                      <h1 class="category">Women's Accessories</h1>
+                      <ul>
+                          <li><a href="products.html">Bags & Wallets</a></li>
+                          <li><a href="products.html">Hats, Scarfs & Gloves</a></li>
+                          <li><a href="products.html">Jewellery</a></li>
+                      </ul>
+                  </div>
+                  <div class="list-item">
+                      <h1 class="category">Kids & Baby Shoes</h1>
+                      <ul>
+                          <li><a href="products.html">Summer Shoes</a></li>
+                          <li><a href="products.html">Winter Shoes</a></li>
+                          <li><a href="products.html">Autumn Shoes</a></li>
+                      </ul>
+                      <h1 class="category">Girls</h1>
+                      <ul>
+                          <li><a href="products.html">Newborn</a></li>
+                          <li><a href="products.html">Baby 6-9 months</a></li>
+                          <li><a href="products.html">Baby 9-12 months</a></li>
+                          <li><a href="products.html">Toddlers 1-3yrs.</a></li>
+                          <li><a href="products.html">Kids 3-5yrs.</a></li>
+                          <li><a href="products.html">Kids 5-7 yrs.</a></li>
+                          <li><a href="products.html">Kids 7-12 yrs.</a></li>
+                          <li><a href="products.html">Teens</a></li>
+                      </ul>
+                      <h1 class="category">Boys</h1>
+                      <ul>
+                          <li><a href="products.html">Newborn</a></li>
+                          <li><a href="products.html">Baby 6-9 months</a></li>
+                          <li><a href="products.html">Baby 9-12 months</a></li>
+                          <li><a href="products.html">Toddlers 1-3yrs.</a></li>
+                          <li><a href="products.html">Kids 3-5yrs.</a></li>
+                          <li><a href="products.html">Kids 5-7 yrs.</a></li>
+                          <li><a href="products.html">Kids 7-12 yrs.</a></li>
+                          <li><a href="products.html">Teens</a></li>
+                      </ul>
+                  </div>
+                  <div class="list-item">
+                      <h1 class="category">Shop All 50% Sale</h1>
+                      <img src="assets/img/sale.jpg" alt="Shop Sale">
+                      <img style="transform: rotate(-15deg);" src="assets/img/onlineshopping.jpg" alt="Shop Sale">
+                  </div>
+              </div>
+            </li>
+            <!-- Sales End -->
+
+            <!-- Man Section -->
+            <li class="nav-children"><a href="#" title="Man Section">Man <i class="icon ion-arrow-down-b"></i></a>
+              <div class="sub-nav mega-menu mega-menu-col-4">
+                <div class="list-item">
+                    <h1 class="category">Menswear</h1>
+                    <ul>
+                        <li><a href="products.html">Casual Clothes</a></li>
+                        <li><a href="products.html">Elegant Clothes</a></li>
+                        <li><a href="products.html">Sport Clothes</a></li>
+                      </ul>
+                      <ul class="mg-1">
+                        <li><a href="products.html">Suits</a></li>
+                        <li><a href="products.html">Jeans & Trousers</a></li>
+                        <li><a href="products.html">T-shirts & Tops</a></li>
+                        <li><a href="products.html">Hoodies & Sweatshirts</a></li>
+                        <li><a href="products.html">Jackets</a></li>
+                      </ul>
+                </div>
+                <div class="list-item">
+                  <h1 class="category">Men's Shoes</h1>
+                  <ul>
+                    <li><a href="products.html">Summer Shoes</a></li>
+                    <li><a href="products.html">Winter Shoes</a></li>
+                    <li><a href="products.html">Autumn Shoes</a></li>
+                    <li><a href="products.html">Sport Shoes</a></li>
+                  </ul>
+                  <ul class="mg-1">
+                    <li><a href="products.html">Boots</a></li>
+                    <li><a href="products.html">Elegant Shoes</a></li>
+                    <li><a href="products.html">Casual Shoes</a></li>
+                    <li><a href="products.html">Sneakers</a></li>
+                  </ul>
+                  
+                </div>
+                <div class="list-item">
+                  <h1 class="category">Men's Accessories</h1>
+                  <ul>
+                    <li><a href="products.html">Bags & Wallets</a></li>
+                    <li><a href="products.html">Hats</a></li>
+                    <li><a href="products.html">Scarfs</a></li>
+                    <li><a href="products.html">Gloves</a></li>
+                    <li><a href="products.html">Jewellery</a></li>
+                    <li><a href="products.html">Watches</a></li>
+                  </ul>
+                </div>
+                <div class="list-item">
+                    <h1 class="category">Shop All Man Sale</h1>
+                    <img src="assets/img/sale.jpg" alt="Shop Sale">
+                </div>
+            </div>
+            </li>
+            <!-- Man Section End -->
+
+            <!-- Woman Section -->
+            <li class="nav-children"><a href="#" title="Women Section">Women <i class="icon ion-arrow-down-b"></i></a>
+              <div class="sub-nav mega-menu mega-menu-col-4">
+                <div class="list-item">
+                  <h1 class="category">Womenswear</h1>
+                  <ul>
+                      <li><a href="products.html">Casual Clothes</a></li>
+                      <li><a href="products.html">Elegant Clothes</a></li>
+                      <li><a href="products.html">Sport Clothes</a></li>
+                    </ul>
+                    <ul class="mg-1">
+                      <li><a href="products.html">Dresses</a></li>
+                      <li><a href="products.html">Skirts</a></li>
+                      <li><a href="products.html">Jeans & Trousers</a></li>
+                      <li><a href="products.html">T-shirts & Tops</a></li>
+                      <li><a href="products.html">Hoodies & Sweatshirts</a></li>
+                      <li><a href="products.html">Jackets</a></li>
+                    </ul>
+              </div>
+              <div class="list-item">
+                <h1 class="category">Women's Shoes</h1>
+                <ul>
+                  <li><a href="products.html">Summer Shoes</a></li>
+                  <li><a href="products.html">Winter Shoes</a></li>
+                  <li><a href="products.html">Autumn Shoes</a></li>
+                  <li><a href="products.html">Sport Shoes</a></li>
+                </ul>
+                <ul class="mg-1">
+                  <li><a href="products.html">High Hills</a></li>
+                  <li><a href="products.html">Boots</a></li>
+                  <li><a href="products.html">Sneakers</a></li>
+                  <li><a href="products.html">Casual Shoes</a></li>
+                  <li><a href="products.html">Elegant Shoes</a></li>
+                </ul>
+                
+              </div>
+              <div class="list-item">
+                <h1 class="category">Women's Accessories</h1>
+                <ul>
+                  <li><a href="products.html">Bags & Wallets</a></li>
+                  <li><a href="products.html">Hats</a></li>
+                  <li><a href="products.html">Scarfs</a></li>
+                  <li><a href="products.html">Gloves</a></li>
+                  <li><a href="products.html">Jewellery</a></li>
+                  <li><a href="products.html">Watches</a></li>
+                </ul>
+              </div>
+              <div class="list-item">
+                  <h1 class="category">Shop All Women Sale</h1>
+                  <img src="assets/img/sale.jpg" alt="Shop Sale">
+              </div>
+              </div>
+            </li>
+            <!-- Woman Section End-->
+
+            <!-- Kids Section -->
+            <li class="nav-children"><a href="#" title="Kids & Baby Section">Kids & Baby <i class="icon ion-arrow-down-b"></i></a>
+              <div class="sub-nav mega-menu mega-menu-col-4">
+                <div class="list-item">
+                  <h1 class="category">Girls Clothes</h1>
+                  <ul>
+                    <li><a href="products.html">Newborn</a></li>
+                    <li><a href="products.html">Baby 6-9 months</a></li>
+                    <li><a href="products.html">Baby 9-12 months</a></li>
+                    <li><a href="products.html">Toddlers 1-3yrs.</a></li>
+                    <li><a href="products.html">Kids 3-5yrs.</a></li>
+                    <li><a href="products.html">Kids 5-7 yrs.</a></li>
+                    <li><a href="products.html">Kids 7-12 yrs.</a></li>
+                    <li><a href="products.html">Teens</a></li>
+                </ul>
+                </div>
+                <div class="list-item">
+                  <h1 class="category">Boys Clothes</h1>
+                  <ul>
+                    <li><a href="products.html">Newborn</a></li>
+                    <li><a href="products.html">Baby 6-9 months</a></li>
+                    <li><a href="products.html">Baby 9-12 months</a></li>
+                    <li><a href="products.html">Toddlers 1-3yrs.</a></li>
+                    <li><a href="products.html">Kids 3-5yrs.</a></li>
+                    <li><a href="products.html">Kids 5-7 yrs.</a></li>
+                    <li><a href="products.html">Kids 7-12 yrs.</a></li>
+                    <li><a href="products.html">Teens</a></li>
+                  </ul>
+                </div>  
+                <div class="list-item">
+                  <h1 class="category">Girls Shoes</h1>
+                  <ul>
+                      <li><a href="products.html">Summer Shoes</a></li>
+                      <li><a href="products.html">Winter Shoes</a></li>
+                      <li><a href="products.html">Autumn Shoes</a></li>
+                  </ul>
+                  <h1 class="category">Boys Shoes</h1>
+                  <ul>
+                      <li><a href="products.html">Summer Shoes</a></li>
+                      <li><a href="products.html">Winter Shoes</a></li>
+                      <li><a href="products.html">Autumn Shoes</a></li>
+                  </ul>
+                </div>  
+                <div class="list-item">
+                    <h1 class="category">Shop Kids & Baby Sale</h1>
+                    <img src="assets/img/sale.jpg" alt="Shop Sale">
+                </div>
+              </div>
+            </li>
+             <!-- Kids Section End -->
+
+            <li class="nav-children"><a href="contact.html">Contact <i class="icon ion-arrow-down-b"></i></a>
+              <div class="sub-nav single-column-menu">
+                <ul>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="findus.html">Find Us</a></li>
+                  <li><a href="qa.html">Q&A</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-children"><a href="about.html">About <i class="icon ion-arrow-down-b"></i></a>
+              <div class="sub-nav single-column-menu">
+                <ul>
+                  <li><a href="about.html">Our Brand</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Navigation Icons -->
+      <div class="header-sub right">
+        <div class="search-form">
+          <label for="search">Search</label>
+          <input type="text" class="search-input" placeholder="Search..." id="search">
+          <button title="Search Button" class="search-btn">
+            <svg class="icon">
+              <use xlink:href="assets/icons/sprite.svg#icon-search"></use>
+            </svg>
+          </button>
+        </div>
+        <a class="icon-box user" href="login.html" title="Login | Sing In Button"> 
+          <p class="user-account">Login</p>
+          <svg class="icon">
+            <use xlink:href="assets/icons/sprite.svg#icon-user1"></use>
+          </svg>
+        </a>
+        <a class="icon-box cart" href="cart.html" title="My Shopping Bag">
+          <svg class="icon">
+            <use xlink:href="assets/icons/sprite.svg#icon-shopping-bag"></use>
+          </svg>
+          <span class="cart-items">3</span>
+          
+        </a>
+        <div class="mobile-btn">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Header end  -->
+
+    <main class="login-body">
+      <div class="login-container">
+        
+        <form action="index.html" class="login-form" id="signUpForm">
+            <h1>Welcome to Tisaay!</h1>
+            <p class="form-text-center">Sign Up With</p>
+            <div class="social-container">
+              <a href="#" class="social" title="Facebook Sign Up">
+                <svg class="icon">
+                    <use xlink:href="assets/icons/sprite.svg#icon-facebook-with-circle"></use>
+                </svg> 
+              </a>
+              <a href=# class="social" title="Instagram Sign Up">
+                <svg class="icon">
+                    <use xlink:href="assets/icons/sprite.svg#icon-instagram-with-circle"></use>
+                </svg>
+              </a>
+              <a href="#" class="social" title="Twitter Sign Up">
+                <svg class="icon">
+                    <use xlink:href="assets/icons/sprite.svg#icon-twitter"></use>
+                    </svg>
+              </a>
+            </div>
+
+            <div class="form-message form-message-error">
+            
+            </div>
+            <p class="form-text-center">Or user your email</p>
+              <div class="form-input-group">
+                <label for="sname">Enter your name</label> 
+                <input class="form-input" type="text" placeholder="Your name" id="sname" required>
+                <div class="form-input-error-message"></div>
+              </div>
+              
+              <div class="form-input-group">
+                <label for="semail">Enter your email</label>
+                <input class="form-input" type="email" name="email" id="semail" placeholder="Your email" required>
+                <div class="form-input-error-message"></div>
+              </div>
+              
+              <div class="form-input-group">
+                <label for="spass">Enter password</label>
+                <input class="form-input" type="password" placeholder="Password" value="" required id="spass">
+              </div>
+
+              <div class="form-input-group password-check">
+                <label for="ck1">Show Password?</label>
+                <input type="checkbox"  id="ck1" onclick="showPass()"> 
+              </div>
+            
+              <button title="Sign Up" class="form-button" type="submit"> Sign Up</button>
+
+              <p class="form-text">
+                <a href="login.html" class="form-link" id="loginAccount" >Already have an account? Sign In?</a> 
+              </p>       
+        </form>
+
+
+      </div>
+    </main>
+
+   <!-- Footer -->
+   <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#" title="Gift Cards">Gift Cards</a>
+          <a href="#" title="Promotions">Promotions</a>
+          <a href="#" title="Discount Code">Discount Code</a>
+          <a href="#" title="Specials">Specials</a>
+          <a href="#" title="Site Map">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="about.html">About Us</a>
+          <a href="#" title="Privacy Policy">Privacy Policy</a>
+          <a href="#" title="Terms & Conditions">Terms & Conditions</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="#" title="Site Map">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#" title="My Account">My Account</a>
+          <a href="cart.html">Order History</a>
+          <a href="#" title="Wish List">Wish List</a>
+          <a href="#" title="Newsletter">Newsletter</a>
+          <a href="#" title="Returns">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <svg class="icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-location"></use>
+              </svg>
+            </span>
+            41 Westrow Drive, EC1 5RT, London, UK
+          </div>
+          <div>
+            <span>
+              <svg class="icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-mail"></use>
+              </svg>
+            </span>
+            tisaay@gmail.com
+          </div>
+          <div>
+            <span>
+              <svg class="icon">
+                <use xlink:href="assets/icons/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+            +44 768 77 66 88
+          </div>
+          <div class="payment-methods">
+            <img src="./assets/img/payment-method.png" alt="Payment Method">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+   <!-- Footer End -->
+
+    <!-- Script Start here -->
+    <script src="js/index.js"></script>
+</body>
+</html>
